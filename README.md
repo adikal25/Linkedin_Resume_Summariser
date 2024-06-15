@@ -74,5 +74,4 @@ The LinkedIn Profile Summarizer is a Python-based tool that scrapes detailed inf
     - Requires an OpenAI API key, which should be added to the `.env` file.
 
 
-## File Structure
 
