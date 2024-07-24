@@ -31,9 +31,9 @@ def main():
             linkedin_profile_url='https://www.linkedin.com/in/adikal25')
 
         if linkedin_data:
-            # Ensure the linkedin_data is a dictionary, not a plain string
+         
             if isinstance(linkedin_data, str):
-                linkedin_data = linkedin_data.strip()  # Remove any leading/trailing whitespace
+                linkedin_data = linkedin_data.strip() 
                 if linkedin_data.startswith('{') and linkedin_data.endswith('}'):
                     import json
                     linkedin_data = json.loads(linkedin_data)
